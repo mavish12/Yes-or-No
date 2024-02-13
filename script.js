@@ -68,3 +68,10 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
+
+function goToThird() {
+  window.location.href = "third.html";
+}
+function goToVdo1() {
+  window.location.href = "vedio1.html";
+}
